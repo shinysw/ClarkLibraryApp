@@ -46,6 +46,7 @@ public class UserAreaActivity extends AppCompatActivity {
         String message = "Welcome " + first_name + " " + last_name + "!";
         welcomeMsg.setText(message);
 
+        //Listens for a click to go to the Info Activity Page
         bInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +55,7 @@ public class UserAreaActivity extends AppCompatActivity {
             }
         });
 
+        //Listens for a click to go to the Account Activity Page
         bAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,6 +65,7 @@ public class UserAreaActivity extends AppCompatActivity {
             }
         });
 
+        //Listens for a click to go to the CheckOut Activity Page
         bCheckOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
